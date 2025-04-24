@@ -1,6 +1,6 @@
 // src/pages/index.js
 import * as React from "react"
-import Seo from "../components/SEO"
+import Seo from "../components/seo"
 import Home from "../components/Home"
 
 export default function IndexPage() {
