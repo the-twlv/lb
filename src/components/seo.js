@@ -2,7 +2,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 
-const SEO = ({ title }) => {
+const Seo = ({ title }) => {
   return (
     <Helmet>
       <title>{title}</title>
@@ -11,4 +11,4 @@ const SEO = ({ title }) => {
   )
 }
 
-export default SEO
+export default Seo
