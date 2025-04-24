@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { motion } from "framer-motion"
+//import { motion } from "framer-motion"
 
 export const Main = styled.main`
   min-height: 100vh;
@@ -18,22 +18,23 @@ export const Main = styled.main`
   }
 `
 
-export const VerticalLineWrapper = styled.div`
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 5%;
-  display: flex;
-  flex-direction: row;
-  gap: 2px;
-  z-index: 999;
-`
+// export const VerticalLineWrapper = styled.div`
+// display: none;  
+// position: fixed;
+//   top: 0;
+//   bottom: 0;
+//   right: 5%;
+//   display: flex;
+//   flex-direction: row;
+//   gap: 2px;
+//   z-index: 999;
+// `
 
-export const VerticalLine = styled(motion.div)`
-  width: 2px;
-  height: 100vh;
-  background-color: ${(props) => props.color || "white"};
-`
+// export const VerticalLine = styled(motion.div)`
+//   width: 2px;
+//   height: 100vh;
+//   background-color: ${(props) => props.color || "white"};
+// `
 
 export const HeroSection = styled.section`
   position: relative;
@@ -145,7 +146,7 @@ export const Bio = styled.div`
 
 export const Footer = styled.footer`
   margin-top: 5rem;
-  border-top: 0.5px #fff solid;
+  //border-top: 0.5px #fff solid;
   text-align: center;
   font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.6);

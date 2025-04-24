@@ -13,8 +13,6 @@ import {
     AboutButton,
     Bio,
     Footer,
-    VerticalLineWrapper,
-    VerticalLine,   
   } from "../styles/HomeStyles"
 
 
@@ -22,7 +20,7 @@ export default function Home() {
   return (
     <>
     <Main>
-    <VerticalLineWrapper>
+    {/* <VerticalLineWrapper>
   {["black", "white", "green", "pink", "black", "white", "green"].map((color, i) => (
     <VerticalLine
       key={i}
@@ -39,7 +37,7 @@ export default function Home() {
       }}
     />
   ))}
-</VerticalLineWrapper>
+</VerticalLineWrapper> */}
     <AboutButton>About Me</AboutButton>
 
      <HeroSection>
