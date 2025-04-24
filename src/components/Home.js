@@ -1,5 +1,4 @@
 import * as React from "react"
-import Seo from "./SEO"
 //import { motion } from "framer-motion"
 
 import {
@@ -22,7 +21,6 @@ import {
 export default function Home() {
   return (
     <>
-    <Seo title="Liya Blogs" />
     <Main>
     <VerticalLineWrapper>
   {["black", "white", "green", "pink", "black", "white", "green"].map((color, i) => (
