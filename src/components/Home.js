@@ -89,7 +89,7 @@ export default function Home() {
       </Bio>
 
       <Footer>
-        <p className="footer-title">Liya Blogs</p>
+        <p className="footer-title">LB</p>
         <p className="footer-subtitle">Pilates, matcha, inner peace, repeat.</p>
         <p>
             All Rights Reserved • © 2025 • Website by{" "}

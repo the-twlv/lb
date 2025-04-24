@@ -52,7 +52,7 @@ export const ImageWrapper = styled.div`
   aspect-ratio: 4 / 5;
   margin: 0 auto;
   @media (min-width: 768px) {
-    width: 50vw;
+    width: 40vw;
   }
 `
 
@@ -66,7 +66,7 @@ export const Image = styled.img`
 
 export const TextWrapper = styled.div`
   position: absolute;
-  top: 60%;
+  top: 55%;
   right: 0;
   transform: translate(50%, -50%);
   display: flex;
@@ -84,7 +84,7 @@ export const Heading = styled.h1`
   margin: 0;
 
   @media (min-width: 768px) {
-    font-size: 15rem;
+    font-size: 13rem;
   }
 `
 
@@ -155,13 +155,13 @@ export const Footer = styled.footer`
 
   .footer-title {
     font-family: "TheQualified";
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 0.75rem;
   }
 
   .footer-subtitle {
     font-family: "TheQualified";
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 0.75rem 0;
   }
 
