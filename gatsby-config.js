@@ -26,6 +26,21 @@ module.exports = {
     //     path: `${__dirname}/src/images`,
     //   },
     // },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-SEEKQDR9P7", // your GA Measurement ID
+        ],
+        gtagConfig: {
+          anonymize_ip: true,
+        },
+        pluginConfig: {
+          head: true,
+          respectDNT: true,
+        },
+      },
+    },    
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     // {
