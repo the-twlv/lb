@@ -27,9 +27,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: [
-          process.env.GA_ID, // Google Analytics / GA
-          ],
+        trackingIds: [process.env.GA_ID].filter(Boolean),
         gtagConfig: {
           anonymize_ip: true,
         },
@@ -38,7 +36,7 @@ module.exports = {
           respectDNT: true,
         },
       },
-    },    
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     // {
