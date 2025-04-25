@@ -30,8 +30,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          "G-SEEKQDR9P7", // your GA Measurement ID
-        ],
+          process.env.GA_ID, // Google Analytics / GA
+          ],
         gtagConfig: {
           anonymize_ip: true,
         },
